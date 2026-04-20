@@ -7,9 +7,9 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Try multiple possible backend locations
 possible_backend_paths = [
-    os.path.join(base_dir, 'updated_inte_pro', 'inte', 'inte', 'backend'),
-    os.path.join(base_dir, 'updated_inte_pro', 'updated_inte_pro', 'inte', 'inte', 'backend'),
-    os.path.join(base_dir, 'inte', 'inte', 'backend'),
+    os.path.join(base_dir, 'updated_inte_pro', 'updated_inte_pro', 'inte', 'inte', 'backend'),  # double-nested (your actual structure)
+    os.path.join(base_dir, 'updated_inte_pro', 'inte', 'inte', 'backend'),  # single-nested
+    os.path.join(base_dir, 'inte', 'inte', 'backend'),  # direct
 ]
 
 # Try multiple possible template locations
