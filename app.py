@@ -7,22 +7,22 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Try multiple possible backend locations
 possible_backend_paths = [
-    os.path.join(base_dir, 'updated_inte_pro', 'updated_inte_pro', 'inte', 'inte', 'backend'),
     os.path.join(base_dir, 'updated_inte_pro', 'inte', 'inte', 'backend'),
+    os.path.join(base_dir, 'updated_inte_pro', 'updated_inte_pro', 'inte', 'inte', 'backend'),
     os.path.join(base_dir, 'inte', 'inte', 'backend'),
 ]
 
 # Try multiple possible template locations
 possible_template_paths = [
-    os.path.join(base_dir, 'updated_inte_pro', 'updated_inte_pro', 'inte', 'inte', 'templates'),
     os.path.join(base_dir, 'updated_inte_pro', 'inte', 'inte', 'templates'),
+    os.path.join(base_dir, 'updated_inte_pro', 'updated_inte_pro', 'inte', 'inte', 'templates'),
     os.path.join(base_dir, 'inte', 'inte', 'templates'),
 ]
 
 # Try multiple possible static locations
 possible_static_paths = [
-    os.path.join(base_dir, 'updated_inte_pro', 'updated_inte_pro', 'inte', 'inte', 'static'),
     os.path.join(base_dir, 'updated_inte_pro', 'inte', 'inte', 'static'),
+    os.path.join(base_dir, 'updated_inte_pro', 'updated_inte_pro', 'inte', 'inte', 'static'),
     os.path.join(base_dir, 'inte', 'inte', 'static'),
 ]
 
