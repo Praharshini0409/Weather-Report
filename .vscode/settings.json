@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./updated_inte_pro/updated_inte_pro/inte/inte/backend"
+    ]
+}
